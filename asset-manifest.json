@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Todo_Galamela_task/static/css/main.073c9b0a.css",
+    "main.js": "/Todo_Galamela_task/static/js/main.fc15ada2.js",
+    "static/js/787.5d357101.chunk.js": "/Todo_Galamela_task/static/js/787.5d357101.chunk.js",
+    "index.html": "/Todo_Galamela_task/index.html",
+    "main.073c9b0a.css.map": "/Todo_Galamela_task/static/css/main.073c9b0a.css.map",
+    "main.fc15ada2.js.map": "/Todo_Galamela_task/static/js/main.fc15ada2.js.map",
+    "787.5d357101.chunk.js.map": "/Todo_Galamela_task/static/js/787.5d357101.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.fc15ada2.js"
+  ]
+}
