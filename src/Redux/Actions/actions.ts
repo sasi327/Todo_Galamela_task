@@ -4,7 +4,11 @@ import { ADD, DELETE, EDIT, UPDATE } from "../Constants/constants"
 export const addTask = (payload: any) => {
     return {
         type: ADD,
-        payload
+        payload: {
+            ...payload,
+            status: false,
+            isEditMode: false
+        }
     }
 }
 
@@ -18,7 +22,10 @@ export const updateTask = (payload: any) => {
 export const editTask = (payload: any) => {
     return {
         type: EDIT,
-        payload
+        payload: {
+            ...payload,
+            isEditMode: true
+        }
     }
 }
 
